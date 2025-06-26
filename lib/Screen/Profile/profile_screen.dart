@@ -104,7 +104,9 @@ class ProfileScreen extends StatelessWidget {
                   width: double.infinity,
                   height: 45,
                   child: OutlinedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.to(() => const EditProfileScreen());
+                    },
                     style: OutlinedButton.styleFrom(
                       backgroundColor: primaryColor,
                       side: BorderSide(color: Colors.grey[300]!),

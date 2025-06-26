@@ -103,8 +103,8 @@ class AboutUsScreen extends StatelessWidget {
 
             // Team Members
             _buildTeamMember(
-              name: 'Alex Johnson',
-              id: 'ES2001',
+              name: 'Sles Rofath',
+              id: 'B20231459',
               role: 'Lead Developer & UI/UX Designer',
               description:
                   'Specializes in Flutter development and user interface design. Passionate about creating intuitive and beautiful mobile applications.',
@@ -115,8 +115,8 @@ class AboutUsScreen extends StatelessWidget {
             const SizedBox(height: 16),
 
             _buildTeamMember(
-              name: 'Sarah Chen',
-              id: 'ES2002',
+              name: 'Hour Limpeav ',
+              id: 'B20231609',
               role: 'Backend Developer & Database Engineer',
               description:
                   'Expert in server-side development and database management. Ensures our app runs smoothly with secure and efficient backend systems.',
@@ -127,8 +127,8 @@ class AboutUsScreen extends StatelessWidget {
             const SizedBox(height: 16),
 
             _buildTeamMember(
-              name: 'Michael Rodriguez',
-              id: 'ES2003',
+              name: 'Touch Soksan',
+              id: 'B20232703',
               role: 'Quality Assurance & Testing Specialist',
               description:
                   'Focuses on testing and quality assurance to deliver bug-free applications. Ensures optimal performance across all devices.',
